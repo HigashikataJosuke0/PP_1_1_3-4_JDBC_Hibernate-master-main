@@ -24,7 +24,7 @@ public class Util {
             //throw new RuntimeException();
         }
         // реализуйте настройку соеденения с БД
-
+        return connection;
     }
 
 }
