@@ -21,9 +21,7 @@ public class Util {
         } catch (ClassNotFoundException | SQLException e) {
             e.printStackTrace();
             System.out.println("Connection ERROR");
-            //throw new RuntimeException();
         }
-        // реализуйте настройку соеденения с БД
         return connection;
     }
 
